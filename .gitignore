@@ -1,0 +1,41 @@
+# Binários compilados
+/bitchat
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# Arquivos de teste
+*.test
+*.tmp
+*.out
+*.prof
+
+# Dependências
+/vendor/
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração local
+.env
+.env.local
+config.local.yaml
+
+# Diretórios de cache e build
+.cache/
+/build/
+
+# Arquivos específicos do Go
+/go.work

@@ -185,7 +185,7 @@ func (bms *BluetoothMeshService) Stop() {
 	
 	// Parar provedor de plataforma
 	if bms.platformProvider != nil {
-		if err := bms.platformProvider.Shutdown(); err != nil {
+		if err := bms.platformProvider.Stop(); err != nil {
 			fmt.Printf("Erro ao desligar provedor de plataforma: %v\n", err)
 		}
 	}
